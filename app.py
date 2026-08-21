@@ -496,14 +496,11 @@ with st.sidebar:
 
     st.divider()
 
-    st.subheader("🤖 AI Configuration")
+    
 
     groq_key = st.secrets.get("GROQ_API_KEY", "")
 
-    st.caption(
-        "Without an API key, the application will still categorize expenses "
-        "and generate rule-based recommendations."
-    )
+    
 
     st.divider()
 
