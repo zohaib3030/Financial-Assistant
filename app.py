@@ -505,7 +505,7 @@ with st.sidebar:
 
     if st.button("🗑️ Clear All Expenses"):
 
-    st.divider()
+
         st.session_state.expenses = []
 
         st.rerun()
