@@ -494,7 +494,6 @@ with st.sidebar:
         ["PKR", "USD", "EUR", "GBP", "INR"]
     )
 
-    st.divider()
 
     
 
@@ -506,6 +505,7 @@ with st.sidebar:
 
     if st.button("🗑️ Clear All Expenses"):
 
+    st.divider()
         st.session_state.expenses = []
 
         st.rerun()
